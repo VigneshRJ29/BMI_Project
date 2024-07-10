@@ -1,0 +1,84 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h2{
+    color: rgb(228, 22, 22);
+    font-size: xx-large;
+    text-shadow: 1px 1px 3px rgb(47, 240, 198);
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://cdn.pixabay.com/photo/2017/02/12/12/42/wall-2059909_1280.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 22rem;
+  margin-top: 8rem;
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 30px;
+  box-shadow: 4px 4px 5px rgb(185, 7, 7);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  color:#fff;
+}
+
+.inputs input {
+  outline: none;
+  height: 35px;
+  border-radius: 5px;
+  border-color: rosybrown;
+  font-size: 17px;
+  color: #14213B;
+  font-weight:bolder;
+}
+
+#results {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 1px 2px #FF5420;
+}
+.bmi{
+  margin-top: 15px;
+  font-weight: bold;
+  color:#B7305F;
+}
+.calcBtn {
+  width: 100%;
+  padding: 8px 0;
+  margin-top: 10px;
+  border-radius: 40px;
+  border-style:ridge;
+  border-color: cornsilk;
+  background: #300c74;
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#message {
+    color:cornsilk;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(32, 218, 203);
+  font-weight: bolder;
+}
+label{
+    color: rgb(245, 242, 57);
+    text-shadow:1px 1px 2px white;
+}
